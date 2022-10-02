@@ -1,0 +1,33 @@
+.comp_start h1 {
+     font-size: 4.0em;
+}
+
+.comp_start p {
+     margin-bottom: 3.5em;
+     color: #b6b6b6;
+     font-size: 1.5em;
+     font-weight: bolder;
+     font-family: sans-serif;
+}
+
+.comp_start button {
+     background: #0e0e0e;
+     font-family: monospace;
+     color: #e91e63;
+     height: 80px;
+     width: 200px;
+     border: 3px dashed #63e91d;
+     font-size: 18px;
+     border-radius: 25px;
+     cursor: pointer;
+     transition: 3s;
+     /* tempo de transicao*/
+}
+
+/* transicao */
+.comp_start button:hover {
+     background-color: #f8bbd0;
+     border: 4px dashed #009688;
+     color: #001e1b;
+
+}

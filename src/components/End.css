@@ -1,0 +1,21 @@
+.comp_end button {
+     background: #0e0e0e;
+     font-family: monospace;
+     color: #e91e63;
+     height: 80px;
+     width: 200px;
+     border: 4px ridge #45091d;
+     font-size: 18px;
+     border-radius: 25px;
+     cursor: pointer;
+     transition: 3s;
+     /* tempo de transicao*/
+}
+
+/* transicao */
+.comp_end button:hover {
+     background-color: #f8bbd0;
+     border: 4px ridge #c7b5bb;
+     color: #001e1b;
+
+}

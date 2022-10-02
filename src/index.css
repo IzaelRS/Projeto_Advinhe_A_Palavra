@@ -1,0 +1,17 @@
+/* colocando do tamanho da pagina*/
+html,
+body {
+  height: 1000px
+}
+
+/* reset*/
+body {
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+
+  /* efeito gradiente*/
+  background: linear-gradient(180deg, rgba(46, 6, 19, 1) 0%,
+      rgba(233, 30, 99, 1) 100%);
+  color: #f48eb1;
+}

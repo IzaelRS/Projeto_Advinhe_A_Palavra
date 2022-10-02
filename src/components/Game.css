@@ -1,0 +1,139 @@
+.btJogar {
+     background: #0e0e0e;
+     font-family: monospace;
+     color: #e91e63;
+     height: 50px;
+     width: 100px;
+     border: 4px ridge #45091d;
+     margin-left: 20px;
+     font-size: 18px;
+     border-radius: 25px;
+     cursor: pointer;
+     transition: 3s;
+     /* tempo de transicao*/
+}
+
+/* transicao */
+.btJogar:hover {
+     background-color: #f8bbd0;
+     border: 4px ridge #c7b5bb;
+     color: #001e1b;
+
+}
+
+.game h1 {
+     font-size: 3em;
+     color: #fce8ef;
+     -webkit-text-stroke: 1px #e91e63;
+     animation: text 2s infinite;
+}
+
+@keyframes text {
+     0% {
+          text-shadow:
+               0 0 30px #f4edf0;
+     }
+
+     20% {
+          text-shadow:
+               0 0 100px #92556a,
+     }
+
+     40% {
+          text-shadow:
+               0 0 100px #e91e63,
+     }
+
+     60% {
+          text-shadow:
+               0 0 100px #e91e63,
+     }
+
+     80% {
+          text-shadow:
+               0 0 50px #92556a;
+     }
+
+     100% {
+          text-shadow:
+               0 0 30px #f4edf0;
+     }
+}
+
+
+.points {
+     color: white;
+     font-weight: bold;
+     font-family: 'Lucida Sans Regular';
+     font-size: 20px;
+     color: #f8bbd0;
+     margin-bottom: 1em;
+}
+
+.dica {
+     font-size: 23px;
+     color: #659201;
+     font-weight: bolder;
+     -webkit-text-stroke: 0.1px #fce8ef;
+}
+
+.tip span {
+     color: #659201;
+     -webkit-text-stroke: 0.1px #fce8ef;
+     font-weight: bold;
+     font-size: 40px;
+     font-family: cursive
+}
+
+.wordContainer {
+     display: flex;
+     margin: 2em;
+     padding: 2em;
+     border: 20px ridge #6f6f6f;
+}
+
+.letter,
+.blankSquare {
+     font-size: 70px;
+     line-height: 1, 5;
+     border: 3px solid black;
+     width: 100px;
+     height: 100px;
+     text-transform: uppercase;
+     /* tranforma o texto em maiusculo*/
+     color: #0e0e0e;
+     background-color: #f4edf0;
+     font-weight: bold;
+}
+
+.letterContainer p {
+     margin-bottom: 1.2em;
+     color: aliceblue;
+     font-size: 20px;
+     font-family: cursive
+}
+
+.letterContainer form {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.letterContainer input {
+     height: 60px;
+     width: 60px;
+     border: #f4edf0;
+     border-radius: 2px;
+     font-size: 2em;
+     text-align: center;
+
+}
+
+.letraU {
+     color: #0e0e0e;
+}
+
+.letras {
+     color: #202514;
+     font-size: 30px;
+}
